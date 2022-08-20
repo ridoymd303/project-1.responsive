@@ -1,0 +1,537 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/* global css code goes here */
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-lg-3{
+	width: 25%;
+	float: left;
+}
+.col-lg-4{
+	width: 33.33%;
+	float: left;
+}
+.col-lg-6{
+	width: 50%;
+	float: left;
+}
+.col-lg-9{
+	width: 75%;
+	float: left;
+}
+.col-lg-12{
+	width: 100%;
+	float: left;
+}
+/* header code start */
+.header{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	border: 1px solid #777;
+}
+.logo{
+	width: 150px;
+}
+.header .navbar{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.header .navbar li{
+	list-style: none;
+	display: inline-block;
+}
+.header .navbar li a{
+	display: block;
+	font-size: 14px;
+	text-transform: capitalize;
+	color: #000;
+	font-weight: 600;
+	margin: 10px 0px 0px 35px;
+	transition: 1s;
+}
+.header .navbar li a:hover, .header .navbar li a:focus{
+	color: #1B70FF;
+}
+/* online section code start */
+.online-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+}
+.inner-online{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.inner-online h1{
+	font-size: 56px;
+	line-height: 1.4em;
+	font-weight: 700;
+	color: #3F3D56;
+	margin: 0px 0px 15px;
+}
+.inner-online h1 span{
+	color: #008AFF;
+}
+.inner-online p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #777;
+	margin: 0px 0px 15px;
+}
+.inner-online .banner-img{
+	width: 50%;
+}
+.successfull-section{
+	width: 100%;
+	float: left;
+	padding: 20px 0px 60px;
+}
+.inner-left{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.inner-left h2{
+	font-size: 56px;
+	line-height: 66px;
+	color: #F15767;
+	font-weight: 700;
+	margin: 0px 20px 0px 0px;
+}
+.inner-left p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #777;
+	margin: 0px 20px 0px 0px;
+}
+.project{
+	font-size: 56px;
+	line-height: 66px;
+	color: #3F3D56;
+	font-weight: 700;
+	margin: 0px 0px 0px 20px;
+}
+.feature-section{
+	width: 100%;
+	float: left;
+	padding: 50px 0px 100px;
+}
+.inner-feature{
+	width: 80%;
+	float: left;
+	padding: 40px 30px;
+	margin: 0px 10px;
+}
+.inner-feature img{
+	width: 100%;
+	height: 200px;
+}
+.inner-feature h4{
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 28px;
+	color: #3F3D56;
+	margin: 10px 0px;
+}
+.inner-feature p{
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #777;
+}
+.cl1{
+	background: #ECDCDF;
+}
+.cl2{
+	background: #EBF9F4;
+}
+.cl3{
+	background: #FFF7E8;
+}
+/* footer start */
+.footer{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	text-align: center;
+	background: #1B70FF;
+}
+.footer p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: f0f0f0;
+}
+.footer p a{
+	font-weight: 700;
+	letter-spacing: 3px;
+	color: #fff;
+}
+/* footer end */
+
+/*pages html-> page code goes here*/
+
+/* Responsive css code start */
+
+/*
+    * low resolution mobile phone --galaxy fold
+*/
+
+@media (min-width: 279px) and (max-width: 319px){
+	/* code start */
+
+	/* global css code goes here */
+    .container{
+	    width: 90%;
+	    margin: 0px auto;
+    }
+    .row{
+	    width: 100%;
+	    float: left;
+    }
+    .col-lg-3{
+	    width: 100%;
+	    float: left;
+    }
+    .col-lg-4{
+	    width: 100%;
+	    float: left;
+    }
+    .col-lg-6{
+	    width: 100%;
+	    float: left;
+    }
+    .col-lg-9{
+	    width: 100%;
+	    float: left;
+    }
+    .col-lg-12{
+	    width: 100%;
+	    float: left;
+    }
+
+    .header .logo{
+    	display: block;
+    	text-align: center;
+    	width: 100%;
+    }
+    .header .logo img{
+    	width: 150px;
+    }
+    .header .navbar{
+    	text-align: center;
+    }
+    .header .navbar li a{
+    	font-size: 10px;
+    	margin: 10px 0px 0px 10px;
+    }
+    .online-section{
+    	padding: 30px 0px;
+    }
+    .inner-online h1{
+    	font-size: 15px;
+    	line-height: 21px;
+    	margin: 0px 0px 6px 0px;
+    }
+    .inner-online p{
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .inner-online .banner-img{
+    	width: 95%;
+    }
+    .inner-left h2 {
+       font-size: 32px;
+       text-align: center;
+       margin: 0px 0px 0px 5px;
+    }
+    .inner-left p {
+       font-size: 15px;
+       line-height: 25px;
+       text-align: center;
+    }
+    .project {
+       font-size: 20px;
+       line-height: 30px;
+       text-align: center;
+       margin: 10px 15px 0px 5px;
+    }
+    .inner-online p{
+    	font-size: 12px;
+    	line-height: 22px;
+    }
+    .feature-section{
+    	padding: 10px 0px 15px;
+    }
+    .inner-feature{
+    	margin: 0px 0px 15px;
+    }
+
+    /* code end */
+}
+
+/* most of the smartphone devices */
+
+@media (min-width: 320px) and (max-width: 480px){
+	/* code start */
+
+	/* global css code goes here */
+    .container{
+	    width: 90%;
+	    margin: 0px auto;
+    }
+    .row{
+	    width: 100%;
+	    float: left;
+    }
+    .col-lg-3{
+	    width: 100%;
+	    float: left;
+    }
+    .col-lg-4{
+	    width: 100%;
+	    float: left;
+    }
+    .col-lg-6{
+	    width: 100%;
+	    float: left;
+    }
+    .col-lg-9{
+	    width: 100%;
+	    float: left;
+    }
+    .col-lg-12{
+	    width: 100%;
+	    float: left;
+    }
+
+    .header .logo{
+    	display: block;
+    	text-align: center;
+    	width: 100%;
+    }
+    .header .logo img{
+    	width: 130px;
+    }
+    .header .navbar{
+    	text-align: center;
+    }
+    .header .navbar li a{
+    	margin: 12px 0px 0px 5px;
+    }
+    .online-section{
+    	padding: 30px 0px;
+    }
+    .inner-online h1{
+    	font-size: 28px;
+    	line-height: 38px;
+    }
+    .inner-online p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .inner-online .banner-img{
+    	width: 80%;
+    }
+    .inner-left h2 {
+       font-size: 32px;
+       text-align: center;
+       margin: 0px 0px 0px 5px;
+    }
+    .inner-left p {
+       font-size: 15px;
+       line-height: 25px;
+       font-weight: 400;
+       text-align: center;
+    }
+    .project {
+       font-size: 50px;
+       text-align: center;
+       margin: 10px 15px 0px 5px;
+    }
+    .inner-online p{
+    	font-size: 12px;
+    	line-height: 22px;
+    }
+    .inner-feature{
+    	margin: 20px 40px 30px 12px;
+    }
+    .feature-section{
+    	padding: 10px 0px 15px;
+    }
+
+    /* code end */
+} 
+
+/* mobile phone and low resolution tablet */
+
+@media (min-width: 481px) and (max-width: 767px){
+	/* code start */
+
+	/* global css code goes here */
+    .container{
+	    width: 90%;
+	    margin: 0px auto;
+    }
+    .row{
+	    width: 100%;
+	    float: left;
+    }
+    .col-lg-3{
+	    width: 100%;
+	    float: left;
+    }
+    .col-lg-4{
+	    width: 100%;
+	    float: left;
+    }
+    .col-lg-6{
+	    width: 100%;
+	    float: left;
+    }
+    .col-lg-9{
+	    width: 100%;
+	    float: left;
+    }
+    .col-lg-12{
+	    width: 100%;
+	    float: left;
+    }
+
+    .header .logo{
+    	display: block;
+    	text-align: center;
+    	width: 100%;
+    }
+    .header .logo img{
+    	width: 150px;
+    }
+    .header .navbar{
+    	text-align: center;
+    }
+    .header .navbar li a{
+    	font-size: 12px;
+    	margin: 15px 0px 0px 15px;
+    }
+    .inner-online h1{
+    	font-size: 30px;
+    	line-height: 40px;
+    	margin: 0px;
+    }
+    .inner-online p{
+    	font-size: 15px;
+    	line-height: 25px;
+    	margin: 10px 0px 0px;
+    }
+    .inner-online .banner-img{
+    	width: 70%;
+    }
+    .project{
+    font-size: 32px;
+    text-align: center;
+    margin: 0px 0px 0px 5px;
+    }
+    .inner-feature{
+    	margin: 5px 0px 10px 70px;
+    }
+
+    /* code end */
+}
+
+/* tablet,notebook */
+
+@media (min-width: 768px) and (max-width: 1024px){
+		/* code start */
+
+	/* global css code goes here */
+    .container{
+	    width: 90%;
+	    margin: 0px auto;
+    }
+    .row{
+	    width: 100%;
+	    float: left;
+    }
+    .col-lg-3{
+	    width: 100%;
+	    float: left;
+    }
+    .col-lg-4{
+	    width: 100%;
+	    float: left;
+    }
+    .col-lg-6{
+	    width: 100%;
+	    float: left;
+    }
+    .col-lg-9{
+	    width: 100%;
+	    float: left;
+    }
+    .col-lg-12{
+	    width: 100%;
+	    float: left;
+    }
+
+    .header .logo{
+    	display: block;
+    	text-align: center;
+    	width: 100%;
+    }
+    .header .logo img{
+    	width: 180px;
+    }
+    .header .navbar{
+    	text-align: center;
+    }
+    .header .navbar li a{
+    	font-size: 18px;
+    	margin: 0px 0px 0px 40px;
+    }
+    .inner-online h1{
+    	font-size: 30px;
+    	line-height: 40px;
+    	margin: 0px;
+    }
+    .inner-online p{
+    	font-size: 15px;
+    	line-height: 25px;
+    	margin: 10px 0px 0px;
+    }
+    .inner-online .banner-img{
+    	width: 70%;
+    }
+    .project{
+    font-size: 32px;
+    text-align: center;
+    margin: 0px 0px 0px 5px;
+    }
+    .inner-feature{
+    	margin: 5px 0px 10px 70px;
+    }
+    /* code end */
+}
